@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(245, 126, 146);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(219, 9, 44);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: capitalize;
+    font-size: 15px;
+}
+
+.active {
+    text-decoration: underline rgb(219, 9, 44) 3px;
+    text-underline-offset: 10px;
+    font-size: 16px;
+}
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+h3 {
+    font-size: 40px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    line-height: 1.4p;
+    padding-top: 5px;
+}
+
+img {
+    width: 60%;
+    margin-left: 70%;
+    margin-top: -35%;
+    height: 350px;
+}
+
+.content .btn {
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 1px solid rgb(219, 9, 44);
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    background-color: rgb(196, 25, 53);
+}
+
+.content .btn2{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: -1px;
+}
+
+.content .ic1 {
+    width: 40px;
+    margin-left: 25px;
+    margin-bottom: -13px;
+    color: rgb(247, 165, 179);
+    margin-top: 20px;
+}
+
+.boxes {
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.icon {
+    border: 1px solid rgb(245, 126, 146);
+    height: 240px;
+    width: 240px;
+    margin: 10px;
+    padding: 30px 35px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(245, 126, 146);
+    box-shadow: 0px 0px 15px rgb(196, 25, 53);
+    margin-top: -200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ic{
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.icon .ic {
+    font-size: 40px;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.butt3 {
+    text-align: center;
+}

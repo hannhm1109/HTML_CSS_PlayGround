@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    width: 400px;
+    border: 1px solid black;
+    height: 450px;
+    border: 1px solid white ;
+    border-radius: 5px;
+    box-shadow: -10px -5px 40px black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(62, 5, 83);
+    font-weight: bold;
+}
+
+label {
+   color: black;
+   display: block;
+   margin: 10px 0;
+   padding-left: 20px;
+   font-size: 15px;
+}
+
+input,textarea {
+    width: 90%;
+    padding: 3px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid #D3D3D3;
+    background-color: transparent;
+}
+
+input[type="text"]:focus , textarea:focus {
+    border-bottom: 1px solid rgb(177,44,226);
+}
+input[type="password"]:focus , textarea:focus {
+    border-bottom: 1px solid rgb(177,44,226);
+}
+input[type="email"]:focus , textarea:focus {
+    border-bottom: 1px solid rgb(177,44,226);
+}
+
+i{
+    padding-top: 27px;
+    position: absolute;
+    padding-left: 120px;
+    font-size: 15px;
+    color: rgb(100, 4, 100);
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    margin: 15px 110px;
+    padding: 10px 30px;
+    border-radius: 80px;
+    border: 1px solid rgb(177,44,226);
+    background: rgb(177,44,226);
+    background: linear-gradient(90deg, rgba(177,44,226,1) 0%, rgba(200,88,232,0.788953081232493) 43%, rgba(249,39,193,1) 100%);
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px rgb(177,44,226);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.check {
+    display: flex;
+    margin-right: 5px;
+    margin-left: -20px;
+}
+
+.check input {
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.check label {
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: -20px;
+}
